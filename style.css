@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.head h3{
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 20vw;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color: white;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search p{
+    color: gray ;
+    border-right:1px solid gray ;
+    font-size: 15px;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.searchion-icon:first-child{
+    font-size: 20px;
+    color: rgb(252, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.searchion-icon{
+    padding-left: 10px;
+    color: gray;
+}
