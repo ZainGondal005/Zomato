@@ -3,12 +3,15 @@ body{
     padding: 0;
     text-decoration: none;
 }
-.header{
+header{
     width: 100%;
     height: 70vh;
     overflow: hidden;
     position: relative;
     object-fit: cover;
+    margin-bottom: 7vh;
+    
+   
 }
 .header-image{
     position: absolute;
@@ -73,13 +76,51 @@ body{
     padding-right: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.searchion-icon:first-child{
+.search ion-icon:first-child{
     font-size: 20px;
     color: rgb(252, 119, 119);
     padding-left: 10px;
     padding-right: 10px;
 }
-.searchion-icon{
+.search ion-icon{
     padding-left: 10px;
     color: gray;
+}
+.section-1{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    overflow: hidden;
+    width: 265px;
+margin: 3px 5px;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgb(243, 240, 240);
+    box-shadow: 0 1px 2px gray;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    border: 1px solid rgb(203, 201, 201);
+}
+.white{
+position: absolute;
+align-items: center;
+bottom: 3px;
+ border-radius: 0 0 15px 15px;
+ width: 100%;
+ height: 25%;
+ z-index: 2;
+ background-color: white;
+}
+.white p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: rgba(56, 56, 56);
+    letter-spacing: 0.7px;
 }
