@@ -186,3 +186,42 @@ bottom: 3px;
        margin-bottom: 130px;
        justify-content: space-between; 
 }
+.heading-secondary{
+   text-align: center;
+   font-weight: lighter;
+   font-size: 1.8rem;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgba(0, 0, 0, 0.498);
+}
+.section-4{
+   
+   display: grid;
+   justify-content: center;
+   grid-column-gap:20px ;
+   grid-row-gap: 20px;
+   grid-template-columns: 340px 340px 340px;
+   grid-template-rows: auto;
+}
+.box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.box-2 div span{
+    font-size: 1rem;
+    display: inline-block;
+    overflow: hidden;
+    color: rgb(65, 64, 64);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
