@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -29,7 +31,7 @@ header{
     font-size: 2.1rem;
     color: whitesmoke;
     font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .logo{
     width: 20vw;
@@ -41,14 +43,14 @@ header{
     justify-content: space-between;
     color: white;
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 .nav-bar{
     display: flex;
 }
 .nav-bar li{
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     font-weight: lighter;
     padding-left: 30px;
     list-style: none;
@@ -74,7 +76,7 @@ header{
     border-right:1px solid gray ;
     font-size: 15px;
     padding-right: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .search ion-icon:first-child{
     font-size: 20px;
@@ -119,8 +121,26 @@ bottom: 3px;
 }
 .white p{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgba(56, 56, 56);
     letter-spacing: 0.7px;
+}
+.middle{
+    margin: 60px 150px;
+}
+.section-2 h2{
+     font-size: 2.7rem;
+     font-weight: lighter;
+}
+.section-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:30px ;
+}
+.section-2 h6{
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: gray;
 }
